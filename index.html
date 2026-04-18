@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Ledyz Cuesta Herrera - CV Académico</title>
+
+    <meta name="description" content="Dra. Ledyz Cuesta Herrera - Doctora en Modelamiento Matemático Aplicado. Especialista en bioestadística, modelamiento matemático y epidemiología matemática. Académica e investigadora.">
+    <meta name="keywords" content="bioestadística, modelamiento matemático, epidemiología matemática, estadística, PhD matemática aplicada, investigación científica, académico universidad, Chile">
+    <meta name="author" content="Dra. Ledyz Cuesta Herrera">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Dra. Ledyz Cuesta Herrera - PhD en Modelamiento Matemático Aplicado">
+    <meta property="og:description" content="Investigadora especializada en bioestadística, modelamiento matemático e inmunología computacional. Académica de la Universidad Católica del Maule.">
+    <meta property="og:image" content="https://yvanbalderamoreno.netlify.app/foto_LCH.jpeg">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: #0072ce;
+            --primary-dark: #0055a5;
+            --secondary-color: #00b0da;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --medium-gray: #e0e0e0;
+            --dark-gray: #555;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+            --max-content-width: 1200px;
+            --border-radius: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--max-content-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section { padding: 80px 0; width: 100%; }
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 2rem; text-align: center; margin-bottom: 2.5rem; }
+        p { margin-bottom: 1rem; }
+
+        a { color: var(--primary-color); text-decoration: none; transition: var(--transition); }
+        a:hover { color: var(--primary-dark); }
+        button { cursor: pointer; transition: var(--transition); }
+
+        /* ── HEADER ── */
+        header {
+            background-color: var(--secondary-color);
+            padding: 15px 0;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            cursor: pointer;
+            text-decoration: none;
+            transition: var(--transition);
+            user-select: none;
+        }
+        .logo:hover { color: var(--primary-dark); transform: scale(1.05); }
+
+        .nav-menu { display: flex; list-style: none; }
+        .nav-item { margin-left: 1.5rem; }
+        .nav-link {
+            color: var(--text-color);
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: var(--border-radius);
+        }
+        .nav-link.active, .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .language-toggle {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            padding: 8px 12px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+        }
+        .language-toggle:hover {
+            background-color: var(--white);
+            border-color: var(--primary-color);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* ── PERFIL ── */
+        .profile-section { text-align: center; background-color: var(--light-gray); }
+
+        .profile-image {
+            width: 250px; height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border: 5px solid var(--white);
+            box-shadow: var(--shadow);
+        }
+
+        .profile-title { color: var(--primary-dark); margin-bottom: 0.5rem; }
+        .profile-institution { color: var(--primary-color); margin-bottom: 2rem; white-space: pre-line; }
+
+        .bio-container {
+            background-color: var(--white);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin: 2rem auto;
+            max-width: 800px;
+            box-shadow: var(--shadow);
+            text-align: justify;
+        }
+
+        .links-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .academic-link {
+            background-color: var(--white);
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 10px 20px;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .academic-link:hover { background-color: var(--primary-color); color: var(--white); }
+        .academic-link i { font-size: 1.1rem; width: 18px; text-align: center; flex-shrink: 0; }
+        .academic-link.orcid:hover        { background-color: #a6ce39; border-color: #a6ce39; color: #fff; }
+        .academic-link.scholar:hover      { background-color: #4285f4; border-color: #4285f4; color: #fff; }
+        .academic-link.researchgate:hover { background-color: #00d0af; border-color: #00d0af; color: #fff; }
+        .academic-link.linkedin:hover     { background-color: #0077b5; border-color: #0077b5; color: #fff; }
+        .academic-link.email:hover        { background-color: #e34c26; border-color: #e34c26; color: #fff; }
+
+        .keywords-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.8rem;
+            margin: 2rem 0;
+        }
+        .keyword-badge {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .languages-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin-top: 0.5rem;
+        }
+
+        .language-badge {
+            font-size: 0.8rem;
+            padding: 5px 10px;
+            border-radius: 14px;
+            font-weight: 600;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            cursor: default;
+        }
+        .language-badge:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+
+        .lang-r          { background: #276DC3; }
+        .lang-python     { background: #3776AB; }
+        .lang-spss       { background: #2ca02c; }
+        .lang-matlab     { background: #e16737; }
+        .lang-mathematica{ background: #dd1100; }
+        .lang-html       { background: #e34c26; }
+
+        /* Idiomas humanos */
+        .spoken-languages-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 1.5rem 0;
+        }
+        .spoken-lang-badge {
+            background-color: var(--white);
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        /* ── EDUCACIÓN ── */
+        .education-section { background-color: var(--white); }
+        .education-item {
+            display: flex;
+            background-color: var(--white);
+            border: 1px solid var(--medium-gray);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        .education-item:hover {
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            border-color: var(--primary-color);
+        }
+        .education-content { flex: 1; text-align: left; }
+        .education-logo {
+            width: 120px; height: 120px;
+            object-fit: contain;
+            margin-left: 1.5rem;
+            border-radius: var(--border-radius);
+        }
+
+        /* ── PUBLICACIONES ── */
+        .publications-section { background-color: var(--light-gray); }
+        .publications-container { display: flex; flex-wrap: wrap; gap: 2rem; }
+        .publications-list { flex: 2; min-width: 300px; }
+
+        .pub-year-group { margin-bottom: 2.5rem; }
+        .pub-year-heading {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            border-left: 5px solid var(--secondary-color);
+            padding: 0.4rem 0 0.4rem 1rem;
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
+
+        .publication-item {
+            background-color: var(--white);
+            border: 1px solid var(--medium-gray);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow);
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        .pub-number {
+            background-color: var(--primary-color);
+            color: var(--white);
+            font-size: 0.8rem;
+            font-weight: 700;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .pub-content { flex: 1; }
+        .publication-title { font-weight: 700; margin-bottom: 0.5rem; }
+        .publication-authors { color: var(--dark-gray); font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .publication-journal { font-style: italic; color: var(--dark-gray); margin-bottom: 0.5rem; }
+
+        .collaborators-container {
+            flex: 1; min-width: 250px;
+            background-color: var(--white);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            align-self: flex-start;
+        }
+        .collaborator-item {
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+        .collaborator-item:last-child { border-bottom: none; }
+
+        /* Filtro publicaciones */
+        .pub-filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 2rem;
+            padding: 1rem 1.2rem;
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+        .pub-filter-label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--dark-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-right: 0.4rem;
+            white-space: nowrap;
+        }
+        .pub-filter-btn {
+            background: none;
+            border: 2px solid var(--medium-gray);
+            color: var(--dark-gray);
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .pub-filter-btn:hover { border-color: var(--primary-color); color: var(--primary-color); }
+        .pub-filter-btn.active {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: var(--white);
+        }
+        .pub-year-group.hidden { display: none; }
+        .pub-count { margin-left: auto; font-size: 0.82rem; color: var(--dark-gray); white-space: nowrap; }
+        .pub-count span { font-weight: 700; color: var(--primary-color); }
+
+        /* Ponencias */
+        .ponencias-section {
+            background-color: var(--white);
+        }
+        .ponencia-item {
+            background-color: var(--light-gray);
+            border-left: 4px solid var(--secondary-color);
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            padding: 1rem 1.2rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.92rem;
+        }
+        .ponencia-item em { color: var(--primary-color); font-style: normal; font-weight: 600; }
+
+        /* ── CONTACTO ── */
+        .contact-section { background-color: var(--light-gray); }
+        .contact-container { max-width: 600px; margin: 0 auto; text-align: center; }
+        .email-list { margin: 1.5rem 0; }
+        .email-item { margin-bottom: 0.5rem; }
+        .collaboration-text {
+            background-color: var(--white);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            margin-top: 2rem;
+        }
+
+        /* ── FOOTER ── */
+        footer {
+            background-color: var(--dark-gray);
+            color: var(--white);
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 992px) {
+            .publications-container { flex-direction: column; }
+            .education-item { flex-direction: column; text-align: center; }
+            .education-logo { width: 80px; height: 80px; margin: 1rem auto 0; }
+        }
+        @media (max-width: 768px) {
+            .header-container { flex-wrap: wrap; }
+            .nav-menu { display: none; flex-direction: column; width: 100%; margin-top: 1rem; }
+            .nav-menu.active { display: flex; }
+            .nav-item { margin: 0.5rem 0; }
+            .mobile-menu-btn { display: block; }
+            h1 { font-size: 2rem; } h2 { font-size: 1.8rem; }
+            section { padding: 60px 0; }
+        }
+        @media (max-width: 576px) {
+            .profile-image { width: 200px; height: 200px; }
+            .bio-container { padding: 1.5rem; }
+            .links-container { flex-direction: column; align-items: center; }
+            .academic-link { width: 100%; text-align: center; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-container">
+            <a class="logo" href="#inicio" onclick="changeSection('inicio'); return false;">LCH</a>
+
+            <button class="mobile-menu-btn">☰</button>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#inicio"        class="nav-link active" data-section="inicio"        data-text="nav_inicio">Inicio</a></li>
+                <li class="nav-item"><a href="#educacion"     class="nav-link"        data-section="educacion"     data-text="nav_educacion">Educación</a></li>
+                <li class="nav-item"><a href="#publicaciones" class="nav-link"        data-section="publicaciones" data-text="nav_publicaciones">Publicaciones</a></li>
+                <li class="nav-item"><a href="#ponencias"     class="nav-link"        data-section="ponencias"     data-text="nav_ponencias">Ponencias</a></li>
+                <li class="nav-item"><a href="#contacto"      class="nav-link"        data-section="contacto"      data-text="nav_contacto">Contacto</a></li>
+                <li class="nav-item"><button class="language-toggle">🇺🇸 EN</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ══════════════════ INICIO ══════════════════ -->
+        <section id="inicio" class="profile-section">
+            <div class="container">
+                <h2 data-text="perfil_academico">Perfil Académico</h2>
+
+                <img src="/foto_LCH.jpeg" alt="Foto de Ledyz Cuesta Herrera" class="profile-image"
+                     onerror="this.style.background='#e0eaf5';this.style.display='flex';this.alt='LCH';">
+
+                <h1 class="profile-title">Dra. Ledyz Cuesta Herrera 🇨🇴</h1>
+                <h3 class="profile-title" data-text="title">Académica e Investigadora</h3>
+                <p class="profile-institution" data-text="institution">Departamento de Matemática, Física y Estadística,
+ Facultad de Ciencias Básicas,
+ Universidad Católica del Maule</p>
+
+                <div class="bio-container">
+                    <h3 data-text="bio">Biografía:</h3>
+                    <p data-text="biografia">Soy Doctora en Modelamiento Matemático Aplicado por la Universidad Católica del Maule (2023), Magíster Scientiae en Estadística por la Universidad de Los Andes de Venezuela y Licenciada en Matemáticas por la Universidad Industrial de Santander de Colombia. Mi trabajo se centra en el modelamiento matemático de procesos biológicos complejos, con especial énfasis en la dinámica de infección viral, la respuesta inmune al SARS-CoV-2 y la bioestadística aplicada a epidemiología.
+
+He desarrollado modelos matemáticos de ecuaciones diferenciales ordinarias para describir la interacción entre células inmunes y virus respiratorios, participando en proyectos de investigación internacionales. Además, cuento con una sólida trayectoria docente en estadística y matemáticas en instituciones de Chile, Colombia y Venezuela, tanto a nivel de pregrado como de posgrado.
+
+Mis competencias incluyen modelamiento estadístico avanzado, análisis espacial, métodos multivariantes y el uso de software estadístico especializado. Me desempeño activamente como revisora en revistas científicas y asesora estadística en proyectos de investigación aplicada.</p>
+                </div>
+
+                <h3 data-text="enlaces_academicos">🌐 Enlaces Académicos</h3>
+                <div class="links-container">
+                    <a href="https://orcid.org/0000-0003-4108-7280" class="academic-link orcid" target="_blank">
+                        <i class="fa-brands fa-orcid"></i> ORCID
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=uufWuWwAAAAJ&hl=es&oi=ao" class="academic-link scholar" target="_blank">
+                        <i class="fa-brands fa-google"></i> Google Scholar
+                    </a>
+                    <a href="https://www.researchgate.net/profile/Ledyz-Cuesta-Herrera" class="academic-link researchgate" target="_blank">
+                        <i class="fa-brands fa-researchgate"></i> ResearchGate
+                    </a>
+                    <a href="https://www.linkedin.com/in/ledyz-cuesta-herrera-80512a385/" class="academic-link linkedin" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+
+                <h3 data-text="areas_investigacion">📚 Áreas de Investigación</h3>
+                <div class="keywords-container">
+                    <span class="keyword-badge" data-keyword="0">Modelamiento matemático</span>
+                    <span class="keyword-badge" data-keyword="1">Epidemiología matemática</span>
+                    <span class="keyword-badge" data-keyword="2">Dinámica viral SARS-CoV-2</span>
+                    <span class="keyword-badge" data-keyword="3">Respuesta inmune</span>
+                    <span class="keyword-badge" data-keyword="4">Bioestadística</span>
+                    <span class="keyword-badge" data-keyword="5">Análisis espacial</span>
+                    <span class="keyword-badge" data-keyword="6">Modelos SEIR</span>
+                    <span class="keyword-badge" data-keyword="7">Estadística aplicada</span>
+                    <span class="keyword-badge" data-keyword="8">Data Science</span>
+                </div>
+
+                <h3 data-text="lenguajes_programacion">💻 Software estadístico y lenguajes</h3>
+                <div class="languages-container">
+                    <span class="language-badge lang-r">R</span> 
+                    <span class="language-badge lang-spss">SPSS</span>
+                    <span class="language-badge lang-matlab">MATLAB</span>
+                    <span class="language-badge lang-mathematica">Mathematica</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════ EDUCACIÓN ══════════════════ -->
+        <section id="educacion" class="education-section">
+            <div class="container">
+                <h2 data-text="formacion_academica">Formación Académica</h2>
+
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3 data-degree="0">Doctora en Modelamiento Matemático Aplicado</h3>
+                        <p>Universidad Católica del Maule</p>
+                        <p>Talca, Chile &nbsp;·&nbsp; 2023</p>
+                        <p style="font-style:italic; color:var(--dark-gray); font-size:0.9rem;">
+                            Tesis: "Modelamiento matemático de la dinámica de infección viral durante la respuesta inmune del hospedero humano al ataque del virus SARS-CoV-2"
+                        </p>
+                        <a href="https://www.dm2a.org" target="_blank" data-text="mas_informacion">Más información</a>
+                    </div>
+                    <img src="/logos/ucm.png" alt="Logo UCM" class="education-logo"
+                         onerror="this.style.display='none'">
+                </div>
+
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3 data-degree="1">Magíster Scientiae en Estadística</h3>
+                        <p>Universidad de Los Andes</p>
+                        <p>Mérida, Venezuela &nbsp;·&nbsp; 2017</p>
+                        <p style="font-style:italic; color:var(--dark-gray); font-size:0.9rem;">
+                            Mención Publicación
+                        </p>
+                    </div>
+                    <img src="/logos/ula.png" alt="Logo ULA" class="education-logo"
+                         onerror="this.style.display='none'">
+                </div>
+
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3 data-degree="2">Licenciada en Matemáticas</h3>
+                        <p>Universidad Industrial de Santander</p>
+                        <p>Bucaramanga, Colombia &nbsp;·&nbsp; 2010</p>
+                    </div>
+                    <img src="/logos/uis.png" alt="Logo UIS" class="education-logo"
+                         onerror="this.style.display='none'">
+                </div>
+
+                <!-- Educación Continua -->
+                <h3 style="margin-top:2.5rem; border-left:5px solid var(--secondary-color); padding-left:1rem;">Educación Continua</h3>
+
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3>Diplomado en Docencia Universitaria para el Aprendizaje Profundo y la Innovación Educativa</h3>
+                        <p>Universidad Católica del Maule &nbsp;·&nbsp; Chile &nbsp;·&nbsp; 2024–2025 &nbsp;·&nbsp; 120 horas</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3>Diplomado en Docencia para la Educación Superior</h3>
+                        <p>Universidad de Santander &nbsp;·&nbsp; Colombia &nbsp;·&nbsp; 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════ PUBLICACIONES ══════════════════ -->
+        <section id="publicaciones" class="publications-section">
+            <div class="container">
+                <h2 data-text="publicaciones_cientificas">Publicaciones Científicas</h2>
+
+                <div class="pub-filter-bar">
+                    <span class="pub-filter-label">Filtrar por año:</span>
+                    <button class="pub-filter-btn active" data-year="all">Todos</button>
+                    <button class="pub-filter-btn" data-year="2026">2026</button>
+                    <button class="pub-filter-btn" data-year="2024">2024</button>
+                    <button class="pub-filter-btn" data-year="2023">2023</button>
+                    <button class="pub-filter-btn" data-year="2022">2022</button>
+                    <span class="pub-count">Total: <span id="pub-total">5</span> publicaciones</span>
+                </div>
+
+                <div class="publications-container">
+                    <div class="publications-list">
+
+                        <!-- ── 2026 ── -->
+                        <div class="pub-year-group" data-year="2026">
+                            <h3 class="pub-year-heading">2026</h3>
+
+                            <div class="publication-item">
+                                <div class="pub-number">1</div>
+                                <div class="pub-content">
+                                    <div class="publication-title">Análisis de factores determinantes en el QS world university ranking y su evolución en el tiempo</div>
+                                    <div class="publication-authors">Cuesta-Herrera, L., &amp; Baldera-Moreno, Y.</div>
+                                    <div class="publication-journal">Ingeniare. Revista Chilena de Ingeniería, 33</div>
+                                    <a href="https://doi.org/10.64966/ingeniare.v33.33" target="_blank">DOI: 10.64966/ingeniare.v33.33</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ── 2024 ── -->
+                        <div class="pub-year-group" data-year="2024">
+                            <h3 class="pub-year-heading">2024</h3>
+
+                            <div class="publication-item">
+                                <div class="pub-number">1</div>
+                                <div class="pub-content">
+                                    <div class="publication-title">Exploring growth models with multiplicative counting. Connections with the Geometric and Bigeometric Calculi</div>
+                                    <div class="publication-authors">Córdova-Lepe, F., Martínez-Jeraldo, N., and Cuesta-Herrera, L.</div>
+                                    <div class="publication-journal">Applied Mathematics—A Journal of Chinese Universities Series B (Aceptado)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ── 2023 ── -->
+                        <div class="pub-year-group" data-year="2023">
+                            <h3 class="pub-year-heading">2023</h3>
+
+                            <div class="publication-item">
+                                <div class="pub-number">1</div>
+                                <div class="pub-content">
+                                    <div class="publication-title">A mathematical model and simulation scenarios for T and B cells immune response to severe acute respiratory syndrome-coronavirus-2</div>
+                                    <div class="publication-authors">Cuesta-Herrera, L., Córdova-Lepe, F., Pastenes, L., Arencibia, A. D., Baldera-Moreno, Y., &amp; Torres-Mantilla, H. A.</div>
+                                    <div class="publication-journal">Journal of Physics: Conference Series, Vol. 2516, No. 1, p. 012007</div>
+                                    <a href="https://doi.org/10.1088/1742-6596/2516/1/012007" target="_blank">DOI: 10.1088/1742-6596/2516/1/012007</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ── 2022 ── -->
+                        <div class="pub-year-group" data-year="2022">
+                            <h3 class="pub-year-heading">2022</h3>
+
+                            <div class="publication-item">
+                                <div class="pub-number">1</div>
+                                <div class="pub-content">
+                                    <div class="publication-title">Analysis of SEIR-type models used at the beginning of COVID-19 pandemic reported in high-impact journals</div>
+                                    <div class="publication-authors">Cuesta-Herrera, L., Pastenes, L., Córdova-Lepe, F., Arencibia, A. D., Torres-Mantilla, H., Gutiérrez-Jara, J. P.</div>
+                                    <div class="publication-journal">Medwave</div>
+                                    <a href="https://doi.org/10.5867/medwave.2022.08.2552" target="_blank">DOI: 10.5867/medwave.2022.08.2552</a>
+                                </div>
+                            </div>
+
+                            <div class="publication-item">
+                                <div class="pub-number">2</div>
+                                <div class="pub-content">
+                                    <div class="publication-title">Application of a spatial risk model of the crystalline spider mite (Koilonychias perseae) to avocado crop damage using remote sensing</div>
+                                    <div class="publication-authors">Bañez-Aldave, H., Cuesta-Herrera, L., López-Hernández, J., Andrades-Grassi, J. and Torres-Mantilla, H.</div>
+                                    <div class="publication-journal">Revista Facultad Nacional de Agronomía Medellín</div>
+                                    <a href="https://doi.org/10.15446/rfnam.v76n2.102479" target="_blank">DOI: 10.15446/rfnam.v76n2.102479</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!-- /publications-list -->
+
+                    <div class="collaborators-container">
+                        <h3 data-text="colaboradores">Colaboradores:</h3>
+
+                        <div class="collaborator-item">
+                            <strong>Fernando Córdova-Lepe</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Universidad Católica del Maule, Chile</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <strong>Lautaro Pastenes</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Universidad Católica del Maule, Chile</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <strong>Ariel D. Arencibia</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Investigador internacional</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <strong>Héctor Torres-Mantilla</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Universidad de Los Andes, Venezuela</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <strong>Juan P. Gutiérrez-Jara</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Universidad Católica del Maule, Chile</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <strong>Yvan Baldera-Moreno</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Universidad Católica del Maule, Chile</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <strong>Nicolás Martínez-Jeraldo</strong>
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Universidad Católica del Maule, Chile</p>
+                        </div>
+
+                        <!-- Referee -->
+                        <h3 style="margin-top:1.5rem; font-size:1rem; border-left:4px solid var(--secondary-color); padding-left:0.8rem;">Referee en Revistas</h3>
+                        <div class="collaborator-item">
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Revista Modelamiento Matemático de Sistemas Biológicos (MMSB), UTEM, Chile</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Revista Aula Abierta, Universidad de Oviedo, España</p>
+                        </div>
+                        <div class="collaborator-item">
+                            <p style="font-size:0.85rem; color:var(--dark-gray);">Revista Innovaciencia, Universidad de Santander, Colombia</p>
+                        </div>
+                    </div>
+
+                </div><!-- /publications-container -->
+            </div>
+        </section>
+
+        <!-- ══════════════════ PONENCIAS ══════════════════ -->
+        <section id="ponencias" class="ponencias-section">
+            <div class="container">
+                <h2 data-text="ponencias_congresos">Ponencias en Congresos</h2>
+
+                <h3 style="border-left:5px solid var(--secondary-color); padding-left:1rem; margin-bottom:1.2rem;">2022</h3>
+
+                <div class="ponencia-item">
+                    <em>A mathematical model of the dynamics of the human cellular immune response to SARS-CoV-2.</em><br>
+                    Cuesta-Herrera, L. et al. V Workshop on Modeling and Simulation for Science and Engineering. Colombia, julio 2022. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Mathematical modelling of immune activation in SARS-CoV-2 infection.</em><br>
+                    Cuesta-Herrera, L. et al. XXXIV Jornada de Matemática de la Zona Sur. Chile, abril 2022. <strong>Presentación oral.</strong>
+                </div>
+
+                <h3 style="border-left:5px solid var(--secondary-color); padding-left:1rem; margin-top:2rem; margin-bottom:1.2rem;">2021</h3>
+
+                <div class="ponencia-item">
+                    <em>A cell dynamics law model for the SARS-CoV-2 infection.</em><br>
+                    Cuesta-Herrera, L. et al. XVI Seminario Internacional de Biomatemática. Perú, diciembre 2021. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Cell lysis analysis for respiratory viruses through simulation modeling.</em><br>
+                    Cuesta-Herrera, L. et al. VIII International Conference / Days of Applied Mathematics. Colombia, octubre 2021. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Análisis de gráficos estadísticos antes y después de un proceso de intervención por estudiantes de último año de secundaria.</em><br>
+                    Cuesta-Herrera, L., Díaz, C., Yáñez, G. I Congreso Austral de Educación. Universidad Austral de Chile, Valdivia, septiembre 2021. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Asociación entre infección por VPH y Factores de Riesgo en un Municipio del Estado Mérida, Venezuela.</em><br>
+                    Cuesta-Herrera, L. et al. IV Congreso Internacional de Investigación e Innovación. Universidad de Navarra, Colombia, agosto 2021. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Modelo matemático celular de infección viral con respuesta lítica dependiente de mutación.</em><br>
+                    Cuesta-Herrera, L. et al. Annual Meeting of the SIAM Mexico Section. Guanajuato, México, junio 2021. <strong>Póster.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Aplicación del modelamiento log-lineal para el estudio de interacciones entre factores de riesgo para cáncer de cuello uterino.</em><br>
+                    Cuesta-Herrera, L. et al. XI Congreso Latinoamericano de Biología Matemática, SoLaBIMa. Talca, Chile, enero 2021. <strong>Póster.</strong>
+                </div>
+
+                <h3 style="border-left:5px solid var(--secondary-color); padding-left:1rem; margin-top:2rem; margin-bottom:1.2rem;">2020</h3>
+
+                <div class="ponencia-item">
+                    <em>Confirmatory spatial analysis of 5 central western states of Venezuela.</em><br>
+                    Andrades, J., Cuesta-Herrera, L. et al. VII International Conference / Days of Applied Mathematics. Noviembre 2020. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Mapa de Incidencia por Municipios del Covid-19 en Colombia.</em><br>
+                    Borges, R., Torres, H., Cuesta-Herrera, L. et al. Día mundial de la estadística — "Estadística y Covid-19". Virtual, octubre 2020. <strong>Presentación oral.</strong>
+                </div>
+
+                <h3 style="border-left:5px solid var(--secondary-color); padding-left:1rem; margin-top:2rem; margin-bottom:1.2rem;">2018</h3>
+
+                <div class="ponencia-item">
+                    <em>¿Cómo vencer el miedo a mostrar tus resultados de investigación? ¡Apóyate en la Estadística!</em><br>
+                    Cuesta-Herrera, L. Semana de la Investigación. Universidad de Santander, Colombia, noviembre 2018. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Despistaje de Cáncer Cervical y Virus del Papiloma Humano (VPH) en el Municipio del Estado Mérida, Venezuela.</em><br>
+                    Cuesta-Herrera, L. et al. XXVII Simposio Internacional de Estadística. Bucaramanga, Colombia, julio 2018. <strong>Póster.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Olimpiadas Matemáticas UDES: una experiencia competitiva a nivel universitario y escolar.</em><br>
+                    Cuesta-Herrera, L. IV Encuentro Hablemos de Olimpiadas Matemáticas. Bucaramanga, Colombia, junio 2018. <strong>Presentación oral.</strong>
+                </div>
+
+                <h3 style="border-left:5px solid var(--secondary-color); padding-left:1rem; margin-top:2rem; margin-bottom:1.2rem;">2015 – 2016</h3>
+
+                <div class="ponencia-item">
+                    <em>Pesquisa de cáncer cervical, VPH y factores de riesgo en un municipio del estado Mérida.</em><br>
+                    Cuesta-Herrera, L. et al. XXVIII Jornada Nacional de Obstetricia y Ginecología. Caracas, Venezuela, junio 2016. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Efecto de una metodología de discusión en la interpretación de gráficas estadísticas en estudiantes de grado undécimo.</em><br>
+                    Cuesta-Herrera, L. et al. IX Simposio Nororiental de Matemáticas. Bucaramanga, Colombia, diciembre 2015. <strong>Presentación oral.</strong>
+                </div>
+                <div class="ponencia-item">
+                    <em>Análisis de la interpretación de gráficas estadísticas realizada por estudiantes de grado undécimo tras un proceso de instrucción.</em><br>
+                    Cuesta-Herrera, L. et al. 16° Encuentro Colombiano de Matemática Educativa. Bogotá, Colombia, octubre 2015. <strong>Presentación oral.</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════ CONTACTO ══════════════════ -->
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h2 data-text="contacto">Contacto</h2>
+                <div class="contact-container">
+                    <h3 data-text="correos_electronicos">📧 Correos electrónicos:</h3>
+                    <div class="email-list">
+                        <div class="email-item">
+                            <a href="mailto:lecuestaherrera@gmail.com">lecuestaherrera@gmail.com</a>
+                        </div>
+                        <div class="email-item">
+                            <a href="mailto:lcuesta@ucm.cl">lcuesta@ucm.cl</a>
+                        </div>
+                    </div>
+
+                    <h3 data-text="enlaces_academicos_contacto">🌐 Enlaces Académicos</h3>
+                    <div class="links-container">
+                        <a href="https://orcid.org/0000-0002-0272-6871" class="academic-link orcid" target="_blank">
+                            <i class="fa-brands fa-orcid"></i> ORCID
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=TU_ID_SCHOLAR" class="academic-link scholar" target="_blank">
+                            <i class="fa-brands fa-google"></i> Google Scholar
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Ledyz-Cuesta-Herrera" class="academic-link researchgate" target="_blank">
+                            <i class="fa-brands fa-researchgate"></i> ResearchGate
+                        </a>
+                    </div>
+
+                    <div class="collaboration-text">
+                        <p data-text="colaboracion_texto">Estoy disponible para colaboraciones de investigación, asesorías estadísticas y supervisión de estudiantes en las áreas de modelamiento matemático, bioestadística y epidemiología matemática.</p>
+                    </div>
+
+                    <div style="margin-top:1.5rem; padding:1rem; background:var(--light-gray); border-radius:var(--border-radius); font-size:0.9rem; color:var(--dark-gray);">
+                        📞 +56 959955590 &nbsp;|&nbsp; Talca, Chile
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-text="footer_texto">© 2026 Ledyz Cuesta Herrera - CV Académico</p>
+    </footer>
+
+    <script>
+        // ── Filtro publicaciones ──
+        document.querySelectorAll('.pub-filter-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var year = this.getAttribute('data-year');
+                document.querySelectorAll('.pub-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+                this.classList.add('active');
+                var visibleCount = 0;
+                document.querySelectorAll('.pub-year-group').forEach(function(group) {
+                    if (year === 'all' || group.getAttribute('data-year') === year) {
+                        group.classList.remove('hidden');
+                        visibleCount += group.querySelectorAll('.publication-item').length;
+                    } else {
+                        group.classList.add('hidden');
+                    }
+                });
+                var totalEl = document.getElementById('pub-total');
+                if (totalEl) totalEl.textContent = visibleCount;
+            });
+        });
+
+        // ── Textos bilingüe ──
+        const TEXTS = {
+            "es": {
+                "nav_inicio": "Inicio", "nav_educacion": "Educación",
+                "nav_publicaciones": "Publicaciones", "nav_ponencias": "Ponencias",
+                "nav_contacto": "Contacto",
+                "perfil_academico": "Perfil Académico", "bio": "Biografía:",
+                "biografia": "Soy Doctora en Modelamiento Matemático Aplicado por la Universidad Católica del Maule (2023), Magíster Scientiae en Estadística por la Universidad de Los Andes de Venezuela y Licenciada en Matemáticas por la Universidad Industrial de Santander de Colombia. Mi trabajo se centra en el modelamiento matemático de procesos biológicos complejos, con especial énfasis en la dinámica de infección viral, la respuesta inmune al SARS-CoV-2 y la bioestadística aplicada a epidemiología.\n\nHe desarrollado modelos matemáticos de ecuaciones diferenciales ordinarias para describir la interacción entre células inmunes y virus respiratorios, participando en proyectos de investigación internacionales. Además, cuento con una sólida trayectoria docente en estadística y matemáticas en instituciones de Chile, Colombia y Venezuela, tanto a nivel de pregrado como de posgrado.\n\nMis competencias incluyen modelamiento estadístico avanzado, análisis espacial, métodos multivariantes y el uso de software estadístico especializado. Me desempeño activamente como revisora en revistas científicas y asesora estadística en proyectos de investigación aplicada.",
+                "enlaces_academicos": "🌐 Enlaces Académicos",
+                "areas_investigacion": "📚 Áreas de Investigación",
+                "lenguajes_programacion": "💻 Software estadístico y lenguajes",
+                "idiomas": "🗣️ Idiomas",
+                "formacion_academica": "Formación Académica", "mas_informacion": "Más información",
+                "publicaciones_cientificas": "Publicaciones Científicas",
+                "colaboradores": "Colaboradores:",
+                "ponencias_congresos": "Ponencias en Congresos",
+                "contacto": "Contacto",
+                "correos_electronicos": "📧 Correos electrónicos:",
+                "enlaces_academicos_contacto": "🌐 Enlaces Académicos",
+                "colaboracion_texto": "Estoy disponible para colaboraciones de investigación, asesorías estadísticas y supervisión de estudiantes en las áreas de modelamiento matemático, bioestadística y epidemiología matemática.",
+                "footer_texto": "© 2026 Ledyz Cuesta Herrera - CV Académico",
+                "title": "Académica e Investigadora",
+                "institution": "Departamento de Matemática, Física y Estadística,\n Facultad de Ciencias Básicas,\n Universidad Católica del Maule"
+            },
+            "en": {
+                "nav_inicio": "Home", "nav_educacion": "Education",
+                "nav_publicaciones": "Publications", "nav_ponencias": "Conference Papers",
+                "nav_contacto": "Contact",
+                "perfil_academico": "Academic Profile", "bio": "Biography:",
+                "biografia": "I hold a PhD in Applied Mathematical Modeling from Universidad Católica del Maule (2023), a Master of Science in Statistics from Universidad de Los Andes (Venezuela), and a Bachelor's degree in Mathematics from Universidad Industrial de Santander (Colombia). My research focuses on mathematical modeling of complex biological processes, with particular emphasis on viral infection dynamics, the human immune response to SARS-CoV-2, and biostatistics applied to epidemiology.\n\nI have developed ODE-based mathematical models describing the interaction between immune cells and respiratory viruses, contributing to international research projects. I also have extensive teaching experience in statistics and mathematics at undergraduate and postgraduate levels in Chile, Colombia, and Venezuela.\n\nMy competencies include advanced statistical modeling, spatial analysis, multivariate methods, and specialized statistical software. I serve as a reviewer for scientific journals and as a statistical advisor on applied research projects.",
+                "enlaces_academicos": "🌐 Academic Links",
+                "areas_investigacion": "📚 Research Areas",
+                "lenguajes_programacion": "💻 Statistical Software & Languages",
+                "idiomas": "🗣️ Languages",
+                "formacion_academica": "Academic Training", "mas_informacion": "More information",
+                "publicaciones_cientificas": "Scientific Publications",
+                "colaboradores": "Collaborators:",
+                "ponencias_congresos": "Conference Papers",
+                "contacto": "Contact",
+                "correos_electronicos": "📧 Email addresses:",
+                "enlaces_academicos_contacto": "🌐 Academic Links",
+                "colaboracion_texto": "I am available for research collaborations, statistical consulting, and student supervision in mathematical modeling, biostatistics, and mathematical epidemiology.",
+                "footer_texto": "© 2026 Ledyz Cuesta Herrera - Academic CV",
+                "title": "Academic & Researcher",
+                "institution": "Department of Mathematics, Physics and Statistics,\n Faculty of Basic Sciences,\n Universidad Católica del Maule"
+            }
+        };
+
+        const EDUCATION_TEXTS = {
+            "es": ["Doctora en Modelamiento Matemático Aplicado", "Magíster Scientiae en Estadística", "Licenciada en Matemáticas"],
+            "en": ["PhD in Applied Mathematical Modeling", "Master of Science in Statistics", "Bachelor's Degree in Mathematics"]
+        };
+
+        const KEYWORDS = [
+            {"es": "Modelamiento matemático",   "en": "Mathematical modeling"},
+            {"es": "Epidemiología matemática",  "en": "Mathematical epidemiology"},
+            {"es": "Dinámica viral SARS-CoV-2", "en": "SARS-CoV-2 viral dynamics"},
+            {"es": "Respuesta inmune",           "en": "Immune response"},
+            {"es": "Bioestadística",             "en": "Biostatistics"},
+            {"es": "Análisis espacial",          "en": "Spatial analysis"},
+            {"es": "Modelos SEIR",               "en": "SEIR models"},
+            {"es": "Estadística aplicada",       "en": "Applied statistics"},
+            {"es": "Data Science",               "en": "Data Science"}
+        ];
+
+        let currentLanguage = 'es';
+
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'es' ? 'en' : 'es';
+            updateAllTexts();
+            updateLanguageButton();
+        }
+
+        function updateAllTexts() {
+            document.querySelectorAll('[data-text]').forEach(el => {
+                const key = el.getAttribute('data-text');
+                if (TEXTS[currentLanguage][key]) el.textContent = TEXTS[currentLanguage][key];
+            });
+            document.querySelectorAll('[data-degree]').forEach(el => {
+                const i = parseInt(el.getAttribute('data-degree'));
+                if (EDUCATION_TEXTS[currentLanguage][i]) el.textContent = EDUCATION_TEXTS[currentLanguage][i];
+            });
+            document.querySelectorAll('[data-keyword]').forEach(el => {
+                const i = parseInt(el.getAttribute('data-keyword'));
+                if (KEYWORDS[i] && KEYWORDS[i][currentLanguage]) el.textContent = KEYWORDS[i][currentLanguage];
+            });
+        }
+
+        function updateLanguageButton() {
+            const btn = document.querySelector('.language-toggle');
+            if (btn) btn.textContent = currentLanguage === 'es' ? '🇺🇸 EN' : '🇪🇸 ES';
+        }
+
+        function changeSection(sectionId) {
+            document.querySelectorAll('section').forEach(s => s.style.display = 'none');
+            const target = document.getElementById(sectionId);
+            if (target) {
+                target.style.display = 'block';
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+            const activeLink = document.querySelector(`.nav-link[data-section="${sectionId}"]`);
+            if (activeLink) activeLink.classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    changeSection(this.getAttribute('data-section'));
+                    document.querySelector('.nav-menu').classList.remove('active');
+                });
+            });
+
+            document.querySelector('.language-toggle').addEventListener('click', toggleLanguage);
+
+            document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+                document.querySelector('.nav-menu').classList.toggle('active');
+            });
+
+            updateAllTexts();
+
+            // Mostrar solo inicio al cargar
+            document.querySelectorAll('section').forEach(s => {
+                if (s.id !== 'inicio') s.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
